@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{The User Experience}{}% 2
+\BOOKMARK [1][-]{section.2.1}{The Target Audience}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Kids}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Admin Panel}{section.2.1}% 5
+\BOOKMARK [1][-]{section.2.2}{Typical Usecase for Kids/Persona Scenario}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.1}{Account Creation}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{Learning by doing: Projects}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.3}{Feedback: Gamification, Rankings, Achievements}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.4}{Assessment: Quizzes}{section.2.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Usability Tests}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Implementation}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Front-End}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.1.1}{UI Framework}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.2}{Programming Languages and Layout Principles}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{Back-End}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Working Environment Settings}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Server-side language}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{RDMS}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.4}{Application Architecture and Design Principles}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.5}{Routing and Endpoints}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.6}{Show All Projects}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.7}{Create New Project}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.8}{Edit Project}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.9}{Present Project}{section.3.2}% 25
+\BOOKMARK [1][-]{section.3.3}{Security}{chapter.3}% 26
