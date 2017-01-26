@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.16)  19 JAN 2017 14:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.16)  25 JAN 2017 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,38 +171,72 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen109
+\captionmargin@=\dimen110
+\captionwidth=\dimen111
+\caption@tempdima=\dimen112
+\caption@indent=\dimen113
+\caption@parindent=\dimen114
+\caption@hangindent=\dimen115
+)
+\c@ContinuedFloat=\count99
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count100
+\sf@farskip=\skip44
+\sf@captopadj=\dimen116
+\sf@capskip=\skip45
+\sf@nearskip=\skip46
+\c@subfigure=\count101
+\c@subfigure@save=\count102
+\c@lofdepth=\count103
+\c@subtable=\count104
+\c@subtable@save=\count105
+\c@lotdepth=\count106
+\sf@top=\skip47
+\sf@bottom=\skip48
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 13.
 
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen109
+\scratchcounter=\count107
+\scratchdimen=\dimen117
 \scratchbox=\box26
-\nofMPsegments=\count100
-\nofMParguments=\count101
+\nofMPsegments=\count108
+\nofMParguments=\count109
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen110
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen118
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks16
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -229,7 +263,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 22.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -237,30 +271,33 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count105
+\c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 24.
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./thes
 is.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
@@ -275,23 +312,56 @@ l.3 \chapter
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-) (./user-exp.tex [2
+! Undefined control sequence.
+l.20 \subchapter
+                {Problem Statement/Challenge}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 \subchapter
+                {Market Analysis}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 \subchapter
+                {Preliminary Work}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2
 
 ]
+Overfull \hbox (190.44542pt too wide) in paragraph at lines 24--27
+[]\OT1/cmr/m/n/10 Preliminary Work - gath-er-ing re-quire-ments + writ-ing spec
+s http://www.joelonsoftware.com/articles/WhatTimeIsIt.html
+ []
+
+) (./user-exp.tex [3]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -299,49 +369,263 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[3
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+[4
+
+] <images/ui/DisplayProjects.png, id=166, 992.70876pt x 648.4225pt>
+File: images/ui/DisplayProjects.png Graphic file (type png)
+
+<use images/ui/DisplayProjects.png>
+Package pdftex.def Info: images/ui/DisplayProjects.png used on input line 28.
+(pdftex.def)             Requested size: 345.0pt x 225.34842pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+<images/ui/Labels.png, id=167, 1130.2225pt x 364.36125pt>
+File: images/ui/Labels.png Graphic file (type png)
+
+<use images/ui/Labels.png>
+Package pdftex.def Info: images/ui/Labels.png used on input line 38.
+(pdftex.def)             Requested size: 345.0pt x 111.21619pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+[5 <./images/ui/DisplayProjects.png>]
+<images/ui/Comments.png, id=173, 1212.53pt x 454.69875pt>
+File: images/ui/Comments.png Graphic file (type png)
+
+<use images/ui/Comments.png>
+Package pdftex.def Info: images/ui/Comments.png used on input line 47.
+(pdftex.def)             Requested size: 345.0pt x 129.3754pt.
+
+<images/ui/AddLabels.png, id=174, 527.9725pt x 375.4025pt>
+File: images/ui/AddLabels.png Graphic file (type png)
+
+<use images/ui/AddLabels.png>
+Package pdftex.def Info: images/ui/AddLabels.png used on input line 53.
+(pdftex.def)             Requested size: 172.5pt x 122.65164pt.
+
+<images/ui/StarsVotingSystem.png, id=175, 480.79625pt x 428.60126pt>
+File: images/ui/StarsVotingSystem.png Graphic file (type png)
+
+<use images/ui/StarsVotingSystem.png>
+Package pdftex.def Info: images/ui/StarsVotingSystem.png used on input line 59.
+
+(pdftex.def)             Requested size: 172.5pt x 153.77313pt.
+
+<images/ui/ProjectSteps.png, id=176, 1678.27pt x 652.4375pt>
+File: images/ui/ProjectSteps.png Graphic file (type png)
+
+<use images/ui/ProjectSteps.png>
+Package pdftex.def Info: images/ui/ProjectSteps.png used on input line 67.
+(pdftex.def)             Requested size: 345.0pt x 134.1189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+[6 <./images/ui/Labels.png> <./images/ui/Comments.png>] [7 <./images/ui/AddLabe
+ls.png> <./images/ui/StarsVotingSystem.png> <./images/ui/ProjectSteps.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+<images/ui/GeneralAchievements.png, id=191, 1351.0475pt x 589.20125pt>
+File: images/ui/GeneralAchievements.png Graphic file (type png)
+
+<use images/ui/GeneralAchievements.png>
+Package pdftex.def Info: images/ui/GeneralAchievements.png used on input line 8
+2.
+(pdftex.def)             Requested size: 345.0pt x 150.4556pt.
+
+<images/ui/AchievementsDashboard.png, id=192, 1026.83624pt x 555.07375pt>
+File: images/ui/AchievementsDashboard.png Graphic file (type png)
+
+<use images/ui/AchievementsDashboard.png>
+Package pdftex.def Info: images/ui/AchievementsDashboard.png used on input line
+ 88.
+(pdftex.def)             Requested size: 345.0pt x 186.49503pt.
+
+<images/ui/AchievementsPopUps.png, id=193, 880.28876pt x 357.335pt>
+File: images/ui/AchievementsPopUps.png Graphic file (type png)
+
+<use images/ui/AchievementsPopUps.png>
+Package pdftex.def Info: images/ui/AchievementsPopUps.png used on input line 94
+.
+(pdftex.def)             Requested size: 345.0pt x 140.04164pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
+
+ []
+
+[8 <./images/ui/GeneralAchievements.png>] [9 <./images/ui/AchievementsDashboard
+.png> <./images/ui/AchievementsPopUps.png>]
+<images/ui/Rankings.png, id=206, 948.54375pt x 679.53876pt>
+File: images/ui/Rankings.png Graphic file (type png)
+
+<use images/ui/Rankings.png>
+Package pdftex.def Info: images/ui/Rankings.png used on input line 110.
+(pdftex.def)             Requested size: 345.0pt x 247.15341pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+<images/ui/Quizzes.png, id=207, 1179.40625pt x 479.7925pt>
+File: images/ui/Quizzes.png Graphic file (type png)
+
+<use images/ui/Quizzes.png>
+Package pdftex.def Info: images/ui/Quizzes.png used on input line 127.
+(pdftex.def)             Requested size: 345.0pt x 140.35155pt.
+ [10 <./images/ui/Rankings.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+<images/ui/AdminPanelMenu.png, id=213, 945.5325pt x 485.815pt>
+File: images/ui/AdminPanelMenu.png Graphic file (type png)
+
+<use images/ui/AdminPanelMenu.png>
+Package pdftex.def Info: images/ui/AdminPanelMenu.png used on input line 140.
+(pdftex.def)             Requested size: 345.0pt x 177.2654pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--149
+
+ []
+
+[11 <./images/ui/Quizzes.png> <./images/ui/AdminPanelMenu.png>]
+<images/ui/AdminPanelProjects.png, id=220, 1380.15625pt x 761.84625pt>
+File: images/ui/AdminPanelProjects.png Graphic file (type png)
+
+<use images/ui/AdminPanelProjects.png>
+Package pdftex.def Info: images/ui/AdminPanelProjects.png used on input line 15
+1.
+(pdftex.def)             Requested size: 345.0pt x 190.43784pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+) (./implementation.tex [12 <./images/ui/AdminPanelProjects.png>]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Overfull \hbox (39.32487pt too wide) in paragraph at lines 20--22
+\OT1/cmr/m/n/10 mean-ing it is read-able in any browser. (http://www.javaworld.
+com/article/2078613/java-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+[13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Overfull \hbox (1.29695pt too wide) in paragraph at lines 36--38
+\OT1/cmr/m/n/10 styling rules than over-writ-ing ex-ist-ing ones. (Ref: https:/
+/www.sitepoint.com/5-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -350,108 +634,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-[5]) (./implementation.tex [6]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 
  []
 
+<images/ProjectsDependencies.png, id=239, 876.27374pt x 705.63625pt>
+File: images/ProjectsDependencies.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+<use images/ProjectsDependencies.png>
+Package pdftex.def Info: images/ProjectsDependencies.png used on input line 84.
 
- []
+(pdftex.def)             Requested size: 345.0pt x 277.8242pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-
- []
-
-[7
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
-
- []
-
-<images/DBEntityRelation.png, id=178, 643.40375pt x 1114.1625pt>
-File: images/DBEntityRelation.png Graphic file (type png)
-
-<use images/DBEntityRelation.png>
-Package pdftex.def Info: images/DBEntityRelation.png used on input line 70.
-(pdftex.def)             Requested size: 276.00105pt x 477.9585pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-[9] [10 <./images/DBEntityRelation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
@@ -460,175 +661,196 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
-<images/JavascriptFunction.png, id=194, 1102.1175pt x 486.81876pt>
+[16] [17 <./images/ProjectsDependencies.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+<images/GeneralisedAjaxCallsAPI.png, id=251, 837.1275pt x 751.80875pt>
+File: images/GeneralisedAjaxCallsAPI.png Graphic file (type png)
+
+<use images/GeneralisedAjaxCallsAPI.png>
+Package pdftex.def Info: images/GeneralisedAjaxCallsAPI.png used on input line 
+103.
+(pdftex.def)             Requested size: 345.0pt x 309.83813pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+<images/AjaxProjectsAPI.png, id=252, 861.2175pt x 627.34375pt>
+File: images/AjaxProjectsAPI.png Graphic file (type png)
+
+<use images/AjaxProjectsAPI.png>
+Package pdftex.def Info: images/AjaxProjectsAPI.png used on input line 112.
+(pdftex.def)             Requested size: 345.0pt x 251.31595pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+
+ []
+
+<images/JavascriptFunction.png, id=253, 1102.1175pt x 486.81876pt>
 File: images/JavascriptFunction.png Graphic file (type png)
 
 <use images/JavascriptFunction.png>
-Package pdftex.def Info: images/JavascriptFunction.png used on input line 101.
+Package pdftex.def Info: images/JavascriptFunction.png used on input line 125.
 (pdftex.def)             Requested size: 345.0pt x 152.39047pt.
 
-<images/ProjectsArchitecture.png, id=195, 706.64pt x 835.12pt>
-File: images/ProjectsArchitecture.png Graphic file (type png)
-
-<use images/ProjectsArchitecture.png>
-Package pdftex.def Info: images/ProjectsArchitecture.png used on input line 113
-.
-(pdftex.def)             Requested size: 276.00105pt x 326.17972pt.
- [12 <./images/JavascriptFunction.png>]
-[13 <./images/ProjectsArchitecture.png>]
-Overfull \hbox (103.51741pt too wide) in paragraph at lines 140--141
-\OT1/cmr/m/n/10 'Add New Project' but-ton will redi-rect the user to the fol-lo
-w-ing url: projects/edit[]project.php?projectId.
+Overfull \hbox (8.23726pt too wide) in paragraph at lines 130--132
+[]\OT1/cmr/m/n/10 On Server-side, I have or-gan-ised the API in 2 main files: p
+rojects[]functions.php
  []
 
 
-Overfull \hbox (26.71178pt too wide) in paragraph at lines 140--141
-\OT1/cmr/m/n/10 In the back-ground, the redi-rect ac-tu-ally goes first through
- projects/create[]project.php,
+Overfull \hbox (4.02467pt too wide) in paragraph at lines 130--132
+\OT1/cmr/m/n/10 and projects[]server.php. In projects[]server.php are all func-
+tions and the database
  []
 
 
-Overfull \hbox (138.46207pt too wide) in paragraph at lines 146--148
-\OT1/cmr/m/n/10 [Screen-shot] Header("Location: /smart-fun/pages/projects/edit[
-]project.php?projectId=lastInsertedProjectID") 
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
  []
 
-[14] <images/edit.png, id=211, 1231.60126pt x 409.53pt>
+[18] [19 <./images/GeneralisedAjaxCallsAPI.png>] [20 <./images/AjaxProjectsAPI.
+png> <./images/JavascriptFunction.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+[21] <images/ArchitectureAllProjects.png, id=279, 876.27374pt x 926.46124pt>
+File: images/ArchitectureAllProjects.png Graphic file (type png)
+
+<use images/ArchitectureAllProjects.png>
+Package pdftex.def Info: images/ArchitectureAllProjects.png used on input line 
+160.
+(pdftex.def)             Requested size: 345.0pt x 364.76776pt.
+
+<images/CreateProjectPage.png, id=281, 847.165pt x 392.46625pt>
+File: images/CreateProjectPage.png Graphic file (type png)
+
+<use images/CreateProjectPage.png>
+Package pdftex.def Info: images/CreateProjectPage.png used on input line 172.
+(pdftex.def)             Requested size: 345.0pt x 159.82826pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+<images/edit.png, id=283, 1231.60126pt x 409.53pt>
 File: images/edit.png Graphic file (type png)
  <use images/edit.png>
-Package pdftex.def Info: images/edit.png used on input line 157.
+Package pdftex.def Info: images/edit.png used on input line 187.
 (pdftex.def)             Requested size: 345.0pt x 114.7176pt.
 
-Overfull \hbox (18.20142pt too wide) in paragraph at lines 162--163
-\OT1/cmr/m/n/10 ma-te-ri-als list. These are ob-tained through the API de-fined
- in projects[]functions.php,
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
  []
 
-[15 <./images/edit.png>]
-<images/stepsEdit&Present.png, id=217, 1362.08875pt x 574.145pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+[22] [23 <./images/ArchitectureAllProjects.png>] [24 <./images/CreateProjectPag
+e.png> <./images/edit.png>]
+Overfull \hbox (20.58403pt too wide) in paragraph at lines 199--200
+\OT1/cmr/m/n/10 end with the end-point pro-jects-DataServer-API.php: ajaxSet-Pr
+o-ject-Ti-tleDB, ajaxSet-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+<images/stepsEdit&Present.png, id=303, 1362.08875pt x 574.145pt>
 File: images/stepsEdit&Present.png Graphic file (type png)
 
 <use images/stepsEdit&Present.png>
-Package pdftex.def Info: images/stepsEdit&Present.png used on input line 185.
+Package pdftex.def Info: images/stepsEdit&Present.png used on input line 218.
 (pdftex.def)             Requested size: 345.0pt x 145.41945pt.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 /edit_
-            project/{projectID}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.199 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (74.458pt too wide) in paragraph at lines 196--199
-[]\OT1/cmr/m/n/10 Endpoints: /projects/index.php ==> dis-play all projects / pr
-ojects.js /edit$[]\OML/cmm/m/it/10 roject=[]$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.200 projects/create_
-                      project/ ==> inserts a new project in db and takes the...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.201 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (32.05641pt too wide) in paragraph at lines 200--201
-[]\OT1/cmr/m/n/10 projects/create$[]\OML/cmm/m/it/10 roject= \OT1/cmr/m/n/10 ==
-\OML/cmm/m/it/10 > insertsanewprojectindbandtakesthelastinsertedid \OT1/cmr/m/n
-/10 +
- []
-
-
-Overfull \hbox (141.05763pt too wide) in paragraph at lines 200--201
-\OML/cmm/m/it/10 redirectstoedit[]rojectwiththeid \OT1/cmr/m/n/10 : \OML/cmm/m/
-it/10 header\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 Location \OT1/cmr/m/n/10 : \OML/
-cmm/m/it/10 =smartfun=pages=projects=edit[]roject:php\OT1/cmr/m/n/10 ?\OML/cmm/
-m/it/10 projectId \OT1/cmr/m/n/10 =
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 /present_
-               project/{projectID} / stars_ratings.js; projects_equipment.js...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.203 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (80.40483pt too wide) in paragraph at lines 202--203
-[]\OT1/cmr/m/n/10 /present$[]\OML/cmm/m/it/10 roject=[]=stars[]atings:js\OT1/cm
-r/m/n/10 ; \OML/cmm/m/it/10 projects[]quipment:js\OT1/cmr/m/n/10 ; \OML/cmm/m/i
-t/10 comments:js\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 addSteps:js$ 
- []
-
-
-Overfull \hbox (26.52856pt too wide) in paragraph at lines 208--213
-\OT1/cmr/m/n/10 (https://software.intel.com/en-us/blogs/2012/04/30/why-you-shou
-ld-use-procedural-
- []
-
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
- [16 <./images/stepsEdit&Present.png>] [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
- (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+ [25] [26 <./images/stepsEdit&Present.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+
+(./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4DB922B4B69F3DF6AB4187014CB36C1F;1803.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+(rerunfilecheck)             Checksum: 45F6A61225691EC5E04CCD6B0DFCAB77;1890.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 5238 strings out of 493315
- 78377 string characters out of 6137904
- 162416 words of memory out of 5000000
- 8604 multiletter control sequences out of 15000+600000
- 9107 words of font info for 32 fonts, out of 8000000 for 9000
+ 6524 strings out of 493315
+ 102417 string characters out of 6137904
+ 186709 words of memory out of 5000000
+ 9835 multiletter control sequences out of 15000+600000
+ 9621 words of font info for 34 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,6n,28p,741b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,6n,42p,802b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on thesis.pdf (18 pages, 583166 bytes).
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (27 pages, 1857242 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
