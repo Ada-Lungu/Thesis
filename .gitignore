@@ -1,2 +1,15 @@
-
-thesis.synctex.gz
+*.snm
+*.fls
+*.toc
+*.nav
+*.aux
+*.log
+*.out
+*.pdf
+scg.bib
+*synctex*
+*latexmk*
+*Backup*
+*.fdb_latexmk
+*.fls
+*.log
