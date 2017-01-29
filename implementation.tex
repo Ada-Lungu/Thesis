@@ -2,14 +2,14 @@
 \chapter{Implementation}
 % Command - B = compile
 
-\section{Working Environment Settings} 
+\section{Working Environment Setup} 
 
-We use a server host provider service (Meebox), which comes with a package that supports php development, offers access to Mysql version XXX, and includes phpMyAdmin as database management tool. On top of these it provides SSH Access and SSL Management.\\
+We use a server host provider service (Meebox), which comes with a package that supports php development, offers access to MariaDB 10.0.27, and includes phpMyAdmin as database management tool. On top of these it provides SSH Access and SSL Management.\\
 
 I have suggested Github as our Version Control System, and learned Slack as the company's favorite Communication Management Tool. 
-We have created a separate environment for testing and for production and for this purpose we have created a database for each environment. All the local changes are tested on the test DB which on the server.\\
+We have created a separate environment for testing and for production and for this purpose we have created a database for each environment. All the local changes are tested on the test database which is on the server.\\
 
-I have personally chosen as my IDE (Integrated Development Environment) the Jetbrains product for php development PHPStorm.
+I have chosen as IDE (Integrated Development Environment) PHPStorm, which is Jetbrains product for php development. Our main team tasks management tool was Trello, where we split tasks in categories and constantly prioritized our workflow.
 
 \section{Front-End}
 
@@ -17,7 +17,7 @@ We have opted for a minimalistic, simple design for our beta version, as a strat
 
 \subsection{Programming Languages} 
 
-On front-end I mostly use with Javascript' Jquery libraries. Apart from substantially compressing the code in fewer lines, JQuery is also the most broswer-friendly. It does not need Adobe Flash plug-in to be interpreted by the browser, meaning it is readable in any browser. (http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html)
+On front-end I mostly use Javascript Jquery libraries. Apart from substantially compressing the code in fewer lines, JQuery is also the most broswer-friendly. It does not need Adobe Flash plug-in to be interpreted by the browser, meaning it is readable in any browser. (http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html)
 \\
 
 I use SCSS as a preprocessor programming language, to facilitate better standardization and omogenity of UI components. Jetbrains PHPStorm comes with a File Watcher, a transpiler tool for SCSS that facilitated its integration.\\
@@ -73,9 +73,6 @@ I describe the database design using the following Entity Relation Diagram. I ha
 [Sceenshot DB Entity-Relation]\\
 
 
-\subsection{Security} 
-
-
 \section{Application Architecture and Design Principles}
 
 I will exemplify the application architecture and the design principles by presenting the interactions of one of the projects main modules: the Projects section. The following diagram shows the organization and dependencies between the files of the module. [Figure 3.2]
@@ -85,7 +82,6 @@ I will exemplify the application architecture and the design principles by prese
 \caption{File Dependencies Projects.}
 \label{fig:file_dependencies_projects}
 \end{figure}
-
 
 \subsection{Design Principles}
 
