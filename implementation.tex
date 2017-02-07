@@ -17,7 +17,8 @@ We have opted for a minimalistic, simple design for our beta version, as a strat
 
 \subsection{Programming Languages} 
 
-On front-end I mostly use Javascript Jquery libraries. Apart from substantially compressing the code in fewer lines, JQuery is also the most broswer-friendly. It does not need Adobe Flash plug-in to be interpreted by the browser, meaning it is readable in any browser. (http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html)
+On front-end I mostly use JQuery. Apart from substantially compressing the code in fewer lines, JQuery is also the most broswer-friendly. It does not need Adobe Flash plug-in to be interpreted by the browser, meaning it is readable in any browser.
+\footnote{http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html}
 \\
 
 I use SCSS as a preprocessor programming language, to facilitate better standardization and omogenity of UI components. Jetbrains PHPStorm comes with a File Watcher, a transpiler tool for SCSS that facilitated its integration.\\
@@ -34,14 +35,14 @@ It corresponds to one of our core design principles: responsiveness. It exceeds 
 Bootstrap is still regarded as the most popular front-end framework, with large community support and consequenlty with rich documentation and resources: articles and tutorials, third-party plug-ins and extensions, theme builders.\\
 
 I also prefer Boostrap beacause of its level of specificity. Being more generic than other frameworks that tend to have higher-level specificity, its minimal style framework is easier to customise. I consider it is more practical to add up styling rules than overwriting existing ones. 
-(Ref: https://www.sitepoint.com/5-most-popular-frontend-frameworks-compared/)\\
+\footnote{https://www.sitepoint.com/5-most-popular-frontend-frameworks-compared/}\\
 
 A good framework needs to level up constantly with the latest web technologies, especially with regards to mobile. Bootsrap does that, being constantly under active development. It also has a generous browser support.\\	
 
-Some of the other frameworks have some very competitive features. Semantic UI has some extra unique UI components and outperforms Boostrap as a very friendly, semantic language. Its overall structure of the framework and the naming conventions, in terms of clear logic and semantics of its classes has a clear vantage point. It prounds itself with a scalable and modular architecture for CSS as main property.\\
+Some of the other frameworks have some very competitive features. Semantic UI has some extra unique UI components and outperforms Boostrap as a very friendly, semantic language. Its overall structure of the framework and the naming conventions, in terms of clear logic and semantics of its classes has a clear vantage point. It prounds itself with a scalable and modular architecture for CSS as main property. \footnote{https://www.keycdn.com/blog/front-end-frameworks/}\\
 
 Frameworks such as Semantic UI and Foundation also outweight others by a unique, rich pallette of UI components.
-YOOtheme distinguishes itself with a better GUI Customizer. It offers a flexible and powerful customization mechanism, either manually or via its GUI customizer.
+YOOtheme distinguishes itself with a better GUI Customizer. It offers a flexible and powerful customization mechanism, either manually or via its GUI customizer. \footnote{http://noeticforce.com/best-material-design-web-frameworks}
 Regarding the spectrum of browser support, Boostrap finds itself a step behind Foundation.\\
 
 
@@ -60,12 +61,12 @@ For relational database management system (RDMS) I have opted for MySql. PHP can
 
 PDO stands for PHP Data Objects. It provides a data-access abstraction layer, using a unified API, which is a lean, consistent way to access databases regardless of the database. This increases the portability of our code, if we want to change the database we operate with.\\
 
-One core advantage of PDO over MySQLi lyes in its database driver support. PDO upholds around 12 different drivers, opposed to MySQLi, which supports MySQL only. This fact has implications for further software changes, as using PDO makes it facile to transfer to a different database.\\  
+One core advantage of PDO over MySQLi lyes in its database driver support. PDO upholds around 12 different drivers, opposed to MySQLi, which supports MySQL only. This fact has implications for further software changes, as using PDO makes it facile to transfer to a different database. \footnote{https://code.tutsplus.com/tutorials/pdo-vs-mysqli-which-should-you-use--net-24059}\\  
 
 The abstraction layer PHP offers in interaction with the database through PDO optimises the program execution and maximises security measurements.
-The performance is boosted by the use of Prepared Statements, which allows the parsing and execution of a query only once. The queries are sent only once to the database, where they wait for the parameters. The bandwidth to the server is minimalized through the use of Binding Parameters, which are sent independently to the query waiting on the db.\\ 
+The performance is boosted by the use of Prepared Statements, which allows the parsing and execution of a query only once. The queries are sent only once to the database, where they wait for the parameters. The bandwidth to the server is minimalized through the use of Binding Parameters, which are sent independently to the query waiting on the db. \footnote{http://php.net/manual/en/pdo.prepared-statements.php}\\ 
 
-The second advantage of employing PDO is the layer of security it provides. It is designed to shield against one of the most invasive forms of security breaches: SQL injections. The parameters sent in the query are transmitted later than the query commands using a different protocol. They are scrunitized with security filters through these protocols.\\ 
+The second advantage of employing PDO is the layer of security it provides. It is designed to shield against one of the most invasive forms of security breaches: SQL injections. The parameters sent in the query are transmitted later than the query commands using a different protocol. They are scrunitized with security filters through these protocols. \footnote{http://stackoverflow.com/questions/8263371/how-can-prepared-statements-protect-from-sql-injection-attacks}\\ 
 
 In the design of our database, we have used all types of relational raports between tables. One-to-one relationship model is predominent, followed by one-to-many pattern. 
 The many-to-many relationship is used in merging data between tables such Members-Projects, Projects-Steps, Members-Achievements, Members-Activities, Members-Quizzes, Members-Comments.
@@ -79,13 +80,13 @@ I will exemplify the application architecture and the design principles by prese
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/ProjectsDependencies.png}
-\caption{File Dependencies Projects.}
+\caption{File Dependencies in Projects Module.}
 \label{fig:file_dependencies_projects}
 \end{figure}
 
 \subsection{Design Principles}
 
-I have designed my code around few pillarstone principles: separation of concerns, DRY (Do Not Repeat Yourself) and modularity (reusable components). Separation of concern principle is commonly associated with the MVC architecture design pattern. Although I do not employ a standard MVC framework, I have structured the composition of the code by applying MVC patterns, by striving to preserve a neat separation between the business logic and the view.\\ 
+I have designed my code around few pillarstone principles: separation of concerns, DRY (Do Not Repeat Yourself) and modularity (reusable components). Separation of concern principle is commonly associated with the MVC architecture design pattern. Although I do not employ a standard MVC framework, I have structured the composition of the code by applying MVC patterns, by striving to preserve a neat separation between the business logic and the view. \footnote{http://www.fiftyfoureleven.com/weblog/web-development/programming-and-scripts/php-mvc-without-oop}\\ 
 
 On Client-side I have separated the plain presentation from functionality, by keeping the the mark-up language from javascript in separate files. For readability purposes, I structured the front-end code in smaller separate files, so any major UI component is represented by a distinct file.\\ 
 
@@ -93,33 +94,33 @@ Because I make frequent use of Ajax calls, steadilyI have decided to dedicate a 
 For example,(as shown in the diagram) the ajaxUploadFile function is called from different js files of the same module/folder, or can be called from other modules, anywhere in the system.(or change example)\\ 
 
 I'll describe the design of the AJAX API. It has 2 central generalized Ajax calls functions: postAjaxCall and postAjaxCallSendDictParams. postAjaxCall function sends as data only one parameter, while the other takes a dictionary for sending a couple of arguments to the server.
-Both functions take the following arguments: the server-side endpoint they are sending data to, the data to be sent (name of the action and parameters), and a function that will be executed (in javascript) if the ajax call has been successful. [See Figure XX] \\ 
+Both functions take the following arguments: the server-side endpoint they are sending data to, the data to be sent (name of the action and parameters), and a function that will be executed (in javascript) if the ajax call has been successful. [See Figure ~\ref{fig:general_ajax_calls}]\\ 
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/GeneralisedAjaxCallsAPI.png}
 \caption{Generalised Ajax Calls API.}
-\label{fig:gen_ajax_calls}
+\label{fig:general_ajax_calls}
 \end{figure}
 
 All the other functions of the Ajax API are calling one of the 2 generalized functions, depending on the amount of data they send. 
-I have payed attention at functions naming conventions, as part of my clean code effort strategy. Consequently, these functions are suggestively named by the type of action they perform on the back-end, their name having in composition the name of action parameter sent as data.[See Figure XX] \\
+I have payed attention at functions naming conventions, as part of my clean code effort strategy. Consequently, these functions are suggestively named by the type of action they perform on the back-end, their name having in composition the name of action parameter sent as data.[See Figure ~\ref{fig:ajax_projects_API}] \\
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/AjaxProjectsAPI.png}
-\caption{Ajax Projects API.}
+\caption{Projects Ajax API.}
 \label{fig:ajax_projects_API}
 \end{figure}
 
 
-The Ajax API is for my application what the Controller is for the MVC pattern. It acts as an intermediary between the server-side(business logic) and the front-end(view). Basically, it solicits data from the server, takes the result data and transfers it to the view, without processing it in any way.\\  
+The Ajax API is for my application what the Controller is for the MVC pattern. It acts as an intermediary between the server-side(business logic) and the front-end(view). Basically, it solicits data from the server, takes the result data and transfers it to the view, without processing it in any way. \footnote{http://www.htmlgoodies.com/beyond/php/article.php/3912211}	\\  
 
 Having the Ajax calls isolated, the other javascript files are left to perform the display of data. I encapsulate the display mechanism in functions. 
 I have created distinctive functions for each display demand of data in the interface. By doing so, display functions can be reused by other functions and the readibility of the code is increased. Moreover, it increases modularity and it facilitates easy future changes or integration of new components in the UI.
-Commonly, a javascript function in the system will call one or more ajax functions and will pass it as argument a display function, like in the next snippet example.\\ 
+Commonly, a javascript function in the system will call one or more ajax functions and will pass it as argument a display function, like in the next snippet example [Figure ~\ref{fig:javascript_function}].\\ 
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/JavascriptFunction.png}
-\caption{Javascript Typical Function Design.}
+\caption{Javascript Function - Typical Design.}
 \label{fig:javascript_function}
 \end{figure}
 
@@ -147,27 +148,27 @@ The data of the category tags is retrieved through the getAllProjectsLabels() of
 
 For the category filter tags system, I use Ajax in retrieving and displaying the projects that result in labels selection. I have prefered to dynamically update the page with the selected projects rather than refresh the page, as it was more facile to hide the unselected projects in javascript than updating the page with the previously selected labels. This way, after the filter event is triggered, only the projects section is dynamically changed, the selected labels remaining unchanged.\\
 
-All these interactions are described in Figure 3.4.
+All these interactions are described in Figure ~\ref{fig:architecture_all_projects}\\
 
 The page also gives the user the possibility of adding a new project. The 'Add New Project' button will redirect the user to the following url:
 \url{projects/edit\_project.php?projectId}. In the background, the click event actually links to \url{projects/create\_project.php}, from where the user is redirected to the edit page. I will explain the logic of this process in the 'Create New Project Page' description.
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/ArchitectureAllProjects.png}
-\caption{Architecture All Projects.}
-\label{fig:architecture_all_projects.}
+\caption{Client-Server Architecture for All Projects.}
+\label{fig:architecture_all_projects}
 \end{figure}
 
 \subsection{Create New Project Page}
 \url{projects/create\_project.php}
 
 create\_project.php has only a mediating and rerouting function between index.php and edit\_project.php. Before saving the edited information of a newly created project, we first need an entry of the new project in the db. 
-In create\_project.php, we insert a new project in the database with no other data than its id. Then we extract the id, sending it as an argument and redirecting to edit\_project.php?{projectID}. See Figure 3.7.
+In create\_project.php, we insert a new project in the database with no other data than its id. Then we extract the id, sending it as an argument and redirecting to edit\_project.php?{projectID}. See Figure ~\ref{fig:create_project}
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/CreateProjectPage.png}
-\caption{Create Project Page.}
-\label{fig:create_project.}
+\caption{Create Project Page - Rerouting to Edit Project Page.}
+\label{fig:create_project}
 \end{figure}
 
 
@@ -177,15 +178,15 @@ In the end, creating a new project and editing an existing one, both happen in t
 \url{/projects/edit\_project.php/{projectID}}
 
 The page is accessed in two situations. One instance is when the user creates a new project, case in which it receives the id of the new project through a GET protocol from the create\_project.php.
-The other is when the project was already created and the user only expects to edit the information. This case is accessed from the present\_project page. At the moment the editing of an existing project is open only to administrators. Their access to edit the project is done from the same project presentation page available to all users, through an event which is visible only the the admins of the system, as shown in Figure 3.8.\\
+The other is when the project was already created and the user only expects to edit the information. This case is accessed from the present\_project page. At the moment the editing of an existing project is open only to administrators. Their access to edit the project is done from the same project presentation page available to all users, through an event which is visible only the the admins of the system, as shown in Figure ~\ref{fig:edit_project}.\\
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/edit.png}
-\caption{Edit Project.}
-\label{fig:edit_project.}
+\caption{Edit Project only by Admin - Control Structure.}
+\label{fig:edit_project}
 \end{figure}	
 
-Editing projects connects to both main endpoints: the projectsDataServerAPI.php and the projectsAPI.php. The projectsAPI.php returns information about the editing project: title, description, uploaded media resouces, materials list. The functions contained in this endpoint are depicted in figure XX. \\	
+Editing projects connects to both main endpoints: the projectsDataServerAPI.php and the projectsAPI.php. The projectsAPI.php returns information about the editing project: title, description, uploaded media resouces, materials list. The functions contained in this endpoint are depicted in Figure XX. \\	
 
 The projectsDataServerAPI.php endpoint processes the edited information of the project sent to the server through the Ajax API. The Ajax functions are called by triggered events defined in projects.js, projects\_equipment.js and addSteps.js files, all included in edit\_project.php.\\
 
@@ -208,13 +209,105 @@ The Project Equiments Section is the third component users can interact with. Th
 
 Users can exchange ideas through the Comments Section, which can be monitored and managed(edited/deleted) by admins. comments.js processes the events linked to users comments.\\
 
-Users can find a detailed description of how to do themselves the project in the Steps Section. Steps represent a tutorial about building the project. We use the same UI component for displaying the steps as for editing them, by using control structures and javascript hide and display functions, as the following code snipet shows [See Figure 3.9]. 
+Users can find a detailed description of how to do themselves the project in the Steps Section. Steps represent a tutorial about building the project. We use the same UI component for displaying the steps as for editing them, by using control structures and javascript hide and display functions, as the following code snipet shows in Figure ~\ref{fig:edit_present_steps}. 
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/stepsEdit&Present.png}
-\caption{Show or Edit Steps Control Structure.}
-\label{fig:edit_present_steps.}
+\caption{Present or Edit Steps - Control Structure.}
+\label{fig:edit_present_steps}
 \end{figure}	
+
+
+\chapter{Future Work}
+
+We have strategized the developement of our product by targeting the deployment of a MVP (minimum viable product). The concept of MVP means implementing the application features minimistically while testing them with the users and validating them based on their feedback. It means developing only the core features sufficient to deploy the product, or in other words "just enough features to gather validated learning about the product and its continued development." \cite{leanstartup}\footnote{Eric Ries. The Lean Startup - How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.} \\
+
+This approach minimizes the risk of developing a product which do not resonate with the target users. It also implied that the product owners must prove adaptable in directing the vision of the product based on their users feedback. "The minimum viable product is that version of a new product a team uses to collect the maximum amount of validated learning about customers with the least effort. \footnote{Eric Ries.The Lean Startup - How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.} \\
+
+We have designed our MVP by making sure we integrate core elements of each learning practice we want to explore on our platform: assessment tools, gamification strategies, users active participation.
+Consequently, the current version gathers a rough representation of each component we want to develop in the future. \\
+
+In the following paragraphs I will present the possible future trajectories of our core application components. \\
+
+A future version will include monthly subscription kits that contain all necessary items for building one or more projects on the platform. Subscribed members will receive these material kits by mail. Alternatively, users will be able to order individual components they are missing for building a project. This requires an integrated payment system, which is under development at the moment. Currently we have a shopping cart system where users can select items they need to buy, that will later integrate the payment solutions. \\
+
+One central future gamification feature is an avatar system, where users can customize their avatars as a rewarding component for their activity on the platform. For having the avatar system functional, we will need a virtual monetary system in place. The monetary system will be connected with the current points system and achievemnts. Points will be exchanged for coins, and users will use the coins for buying items for avatar customization. Some of the customizing items will be available to users only after gaining particular achievements. \\
+
+The achievements themselves are subject to future development. A future version will develop a more complex achievement tree system, where achievements can be linked to each other and unlocked in a specific predefined sequence. \\
+
+As a long-term development vision, the platform could offer a learning experience in which the user, represented by the avatar will become character in a virtual game, in which solving tasks will be part of the learning process. \\
+
+
+\chapter{Conclusion}
+
+Building the current project has been a complex learning experience in my evolution as a developer and beyond. 
+One of the greatest assets of my role in this project was being involved in all stages of product development: gathering requirements, prototyping, writing specifications, DB and UI design, UX testing, implementation. Working in a start-up meant direct and constant communication with the product owner and a tight communication with the whole team. \\
+
+It was challenging to be a full stack developer, as I had constantly switched from crafting back-end functionalities to polishing the UI. I consider as an achievement the fact that the implementation of the current version was done entirely by me and one more developer. The greatest achievement though is the fact that I have seen the application in use by kids in workshops. \\
+
+It has been reassuring to see how the platform has improved the learning experience during the workshops. It brought more structure and it increased time efficiency. Following the building projects tutorials on the platform, made kids more focused and independent. Having the platform enabled them to work in their own pace, without tutors having to explain same instructions all over again. Further development of the platform will bring the workshop experience to kids at home, so more kids will have the chance of experiencing learning with STEM projects in their own age specific language: play.\\
+
+
+\begin{thebibliography}{9}
+
+\bibitem{leanstartup} 
+Eric Ries. 
+\textit{The Lean Startup - How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses}. 
+ 
+\bibitem{cleancode} 
+Robert C. Martin.
+\textit{Clean Code: A Handbook of Agile Software Craftsmanship}.
+
+\bibitem{} 
+Joel Spolsky. Joel on Software - Painless Functional Specifications
+\\\texttt{http://www.joelonsoftware.com/articles/}.
+
+\bibitem{} 
+Google. Why using JQuery.
+\\\texttt{http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html}.
+
+\bibitem{} 
+Google. Most Popular Frontend Frameworks.
+\\\texttt{https://www.sitepoint.com/5-most-popular-frontend-frameworks-compared/}.
+
+\bibitem{} 
+Google. A Comparison Study of Frontend Frameworks.
+\\\texttt{https://www.keycdn.com/blog/front-end-frameworks/}.
+
+\bibitem{} 
+Google. PDO vs MySqli.
+\\\texttt{https://code.tutsplus.com/tutorials/pdo-vs-mysqli-which-should-you-use--net-24059}
+
+\bibitem{} 
+Stackoverflow. Using Prepared Statements - Security.
+\\\texttt{http://stepsackoverflow.com/questions/8263371/how-can-prepared-statements-protect-from-sql-injection-attacks}
+
+\bibitem{} 
+PHP Manual. Prepared Statements.
+\\\texttt{http://php.net/manual/en/pdo.prepared-statements.php}
+
+\bibitem{} 
+Google. MVC without OOP.
+\\\texttt{http://www.fiftyfoureleven.com/weblog/web-development/programming-and-scripts/php-mvc-without-oop}
+
+
+\bibitem{} 
+Google. Principles Of MVC for PHP Developers.
+\\\texttt{http://www.htmlgoodies.com/beyond/php/article.php/3912211}
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 

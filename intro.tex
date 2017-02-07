@@ -1,12 +1,20 @@
 %!TEX root=thesis.tex
 
+\begin{center}\section*{Acknowledgements}
+\end{center}
+\vspace{1.5 cm}
+
+Firstly, I would like to thank my project advisor, Constantin Alexandru Gheorghiasa, for supervision and assistance during the project. \\
+
+I am thankful to Smartfun team for the great collaboration on the development of the platform. Thanks to Jedrzej Bryla for reinforcing the cohesion of the team and directing over again the direction of the platform, and thanks to Kaspars Cinis with whom I have worked closely and exchanged valuable know-how. Furthermore, I would like to express my consideration for the rest of the team who has invested great efforts in making the actual workshops possible, which were an important vector for the feedback and development of the application. \\
+
+Special thanks to Mircea Lungu, for all the time invested in passing on his expertise in frequent consultations and close advice. His support has been a constant encouragement and inspiration to me. \\ 
+	
 \chapter{Introduction}
 
 \section{Company and Vision}
 
-This is a project realized in collaboration with \sfun. 
-Smartfun is a start up that outset its activity in 2016. The company's vision is to 
-come up with a friendly and holistic environment for children where they practice STEM (Science, Technology, Engineering, Mathematics) using interactive and playful methods. \\
+This is a project realized in collaboration with \sfun. \sfun is a start up whose vision is to come up with a friendly and holistic environment for children where they practice STEM (Science, Technology, Engineering, Mathematics) using interactive and playful methods. \\
 
 They create an learning environment by providing workshops, where kids are involved in hands-on projects in coding and electronics. Children experiment with building robots, motors, using sensors and coding these devices. They learn a lot empirically by trial and error.  \\
 
@@ -36,41 +44,41 @@ The long-term vision of our product is to compete with the entertainment industr
 
 Consequently, we have set the goals to design our platform guided by these principles:
 \begin{itemize}
-\item interdisciplinarity
-\item experimental learning: both practical and conceptual
-\item users become active agents of a community 
-\item assessment tools
-\item play (gamification)
-\item integrated solution for supplying support materials 
+\item Interdisciplinarity
+\item Experimental learning: both practical and conceptual
+\item Users become active agents of a community 
+\item Assessment tools
+\item Play (gamification)
+\item Integrated solution for supplying support materials 
 \end{itemize}
 
-\section{Market Analysis/Related Workshops}
+\section{Competitor Analysis/Related Work}
 
-Instructables: \url{http://www.instructables.com/classes/}
+\textbf{Instructables: \url{http://www.instructables.com/classes/}}
 
-Instructable is a website that provides tutorials for hands-on projects in a range of disciplines. It provides well documented instructions and learning resources and it also comes up with a set of creative projects.
+Instructables is a website that provides tutorials for hands-on projects in a range of disciplines. It provides well documented instructions and learning resources and it also comes up with a set of creative projects.
 The downsides of their concept is that their tutorials are so focused on how to build a project, that is doesn not enforce any conceptual understanding. The website does not implement any assessment tools.\\
 
-Code Combat: \url{https://codecombat.com/}
+\textbf{Code Combat: \url{https://codecombat.com/}}
 
 Code Combat is one of games that aim teaching kids coding within the mechanics of a real game. Commands controlling the characters in the game are code-like commands, sometimes language specific (Code Combat uses Python commands), other times more generic. 
 This is a successful model for wrapping learning in the realms of entertainment, and it uses gamification as an incentive. Kids understand the power of code commands within the virtual reality, but still lack the vision of connecting coding within a broader spectrum of STEM multidisciplinarity.\\
 
-Scratch MIT: \url{https://scratch.mit.edu/}
-Bitsbox: \url{https://bitsbox.com/}
+\textbf{Scratch MIT: \url{https://scratch.mit.edu/}}
+\textbf{Bitsbox: \url{https://bitsbox.com/}}
 
 Programs like Scratch or Bitsbox empower children on a higher degree, as they become themselves the creators instead of players of games. 
 Scratch is particularly powerful for the community they build around it. Users can upload and share their creations with others, can exchange tips and comments. 
 Scratch MIT lacks outlining the concepts it operates with. Kids understand the power of coding, but the platform does not provide conceptual basis.
 By contrast, Bitsbox connect modules of practise with specific coding concepts, but do not empower the users by engaging them in active participation. \\
 
-EEME: \url{http://www.eeme.co/tour}
-Creation Crate: \url{https://mycreationcrate.com/}
+\textbf{EEME: \url{http://www.eeme.co/tour}}
+\textbf{Creation Crate: \url{https://mycreationcrate.com/}}
 
 These websites have a well built system of monthly kits and learning support (tutorials), plus good integration of interdisciplinary STEM projects. Users can subscribe for getting a monthly kit and can preview the projects they gonna make. Especially My Creation Crate has a portofolio of very creative projects.
 What both these platforms lack is engaging the community and assessment tools.\\
 
-Thimble: \url{https://www.thimble.io/}
+\textbf{Thimble: \url{https://www.thimble.io/}}
 
 Thimble's solution is the closest to our concept, bringing together a number of components left out by other competitors. 
 One feature is the community they build through forums, chat, projects sharing and weekly project webinars. Users are encouraged to customize their projects and share them on the platform. 
@@ -79,7 +87,7 @@ Another differential aspect is that they complement the practice with conceptual
 
 \section{Preliminary Work/Preparations}
 
-"When you design a product, inside and out, the most important thing is to nail down the user experience. What are the screens, how do they work, what do they do. Later, you worry about how to get from here to there. There's no use arguing about what programming language to use before you've decided what your product is going to do." - Joel Spolsky (co-founder of Trello and Fog Creek Software, and CEO of Stack Overflow)\\
+"When you design a product, inside and out, the most important thing is to nail down the user experience. What are the screens, how do they work, what do they do. Later, you worry about how to get from here to there. There's no use arguing about what programming language to use before you've decided what your product is going to do." - Joel Spolsky (co-founder of Trello and Fog Creek Software, and CEO of Stack Overflow) \footnote{http://www.joelonsoftware.com/articles/fog0000000036.html}\\
 
 I was part of a small team responsible for developing the product. It was composed of two developers and the product owner who was also the start-up CEO and the project manager. This resulted in having the developers directly involved in gathering and negociating the requirements.\\
 
@@ -89,7 +97,9 @@ Inspired by Joel Spolsky view of functional specifications, I followed his model
 
 Having the specs, it became much easier to nail down a set of tasks and to prioritize them into a manageble backlog.\\
 
-I have framed the specs around user scenarios for anticipating the end-users interactions with the platform and a better understanding of their needs. As this quote sais it well: "A human brain understands things much better if you can paint a vivid picture in their mind by telling a story, even if it's just a fragment of a story, because our brains have evolved to understand stories."
+I have framed the specs around user scenarios for anticipating the end-users interactions with the platform and a better understanding of their needs. As this quote sais it well: "A human brain understands things much better if you can paint a vivid picture in their mind by telling a story, even if it's just a fragment of a story, because our brains have evolved to understand stories." \footnote{http://www.joelonsoftware.com/articles/fog0000000036.html}
+
+
 
 
 
