@@ -14,33 +14,35 @@ Special thanks to Mircea Lungu, for all the time invested in passing on your exp
 
 \section{Company Profile and Vision}
 
-This is a project performed in collaboration with \sfun. \sfun is a start up whose vision is to come up with a friendly and holistic environment for children where they practice STEM (Science, Technology, Engineering, Mathematics) by means of interactive and playful methods. \\
+This is a project performed in collaboration with \sfun. \sfun is a start up whose vision is to develop a friendly and holistic environment for children where they practice STEM (Science, Technology, Engineering, Mathematics) by means of interactive and playful methods. \\
 
 They create a learning environment by providing workshops, where kids are involved in hands-on projects in coding and electronics. Children experiment with building robots, motors, electric circuits by connecting and coding these devices. They learn a lot empirically by trial and error.  \\
 
 Part of the solution they envision in creating a holistic learning experience is an online platform that will incorporate the know-how and learning materials of the actual workshops. We have already started to do that migration of information towards the platform. At the moment we are using the beta version of the platform as a helping tool in our workshops, until gradually it will replace the need of tutors and of traditional workshops. \\
 
-Workshops constitute the perfect testing environment for our application, as we receive constant feedback by observing kids interacting with it. Using them as a testing ground for the platform assured the selection and prioritization of the developed features based on users reactions.
+Workshops constitute the perfect testing environment for our application, as we receive constant feedback by observing kids interacting with it. \chg{Using}{Having} them as \chg{a testing ground for}{early users of} the platform assured the selection and prioritization of the developed features based on users reactions.
 
 
 \section{Problem Statement}
 
-The lack of a holistic learning experience for kids in STEM.
-Educational systems today still promote learning as an information transfer where students are passive learners, rather than an experiential process where learners engage in active playroles. Moreover, there is still attendancy to teach disciplines in isolation of each other.\\
+\ugh{The lack of a holistic learning experience for kids in STEM.}
+Educational systems today still promote learning as an information transfer where students are passive \chg{learners}{listeners}, rather than an experiential process where learners engage in active playroles. Moreover, there is still a tendency to teach disciplines in isolation of each other. \\
 
 More than other disciplines, STEM should promote experimentation at the core of learning, and interdisciplinarity as a norm. Experimental learning (Learning by doing) supports trail by error learning where kids play active roles in decision taking and problem solving. Interdisciplinarity bridges concepts viewed as independent by showing kids how disciplines are so tighly connected and rely on each other in real life instances. \\
 
-It is hard to revolutionalize the educational system within its conventional boundaries, so there are more efforts directed into creating alternative solutions. Such alternative solutions are seen in the latest development of online educational platforms. Although there is a considerable number of such attempts, there is still a lack of an online platform that promotes a holistic approach for kids in STEM.\\
+It is hard to revolutionalize the educational system within its conventional boundaries, so there are more efforts directed into creating alternative solutions. Such alternative solutions are seen in the latest development of online educational platforms. Although there is a considerable number of such attempts, there is still a lack of an online platform that promotes a holistic approach for kids in STEM. \\
 
-Some of these solutions, while focusing in addressing some traditional issues, end up leaving out important aspects. A common flaw is a tendancy in flipping entirely from a theoretical to a practical approach, leaving out any conceptualization. 
+Some of these \ins{existing }solutions, while focusing in addressing some issues of the traditional approach, end up leaving out important aspects. A common flaw is a \chg{tendancy}{tendency} in flipping entirely from a theoretical to a practical approach, leaving out any conceptualization. \ml{nice.}
 There are other good practice learning strategies that tend to be neglected. A generaly left out educational tool is assessment, which is a powerful component in a learning process.
 Another common challenge is providing the users with the needed tools in engaging in experimental projects. \\
 
-Sharing ideas and knowledge within a community transforms learning in an active enterprise and boosts self-confidence. A holistic educational system is complete when it engage users in active participation, as they share ideas and know-how.\\
+Sharing ideas and knowledge within a community transforms learning in an active enterprise and boosts self-confidence. A holistic educational system is complete when it engage users in active participation, as they share ideas and know-how.\\ \ml{maybe add something about assessment in the holistic system?}
 
 Apart from respecting principles of a holistic learning, we focus in shaping the learning process based on our end-users innate trademarks. And what is more naturally instrumental for kids than play? Play is the articulation of individual expresivity and creativity in kids. We want to bring learning as close as possible to the most intrinsic form of expression in children.\\ 
 
-The long-term vision of our product is to compete with the entertainment industry for kids. Its goal is to model such an exciting experience for kids, that they learn within the realms of play.\\
+The long-term vision of our product is to compete with the entertainment industry for kids. Its goal is to model such an exciting experience for kids, that they learn within the realms of play. \\ 
+
+\ml{nice!}
 
 Consequently, we have set the goals to design our platform guided by these principles:
 \begin{itemize}
@@ -52,17 +54,22 @@ Consequently, we have set the goals to design our platform guided by these princ
 \item Integrated solution for supplying support materials 
 \end{itemize}
 
+
 \section{Competitor Analysis}
 
-\textbf{Instructables: \url{http://www.instructables.com/classes/}}
+\ins{This section discusses several of the competing platforms.}
 
-Instructables is a website that provides tutorials for hands-on projects in a range of disciplines. It provides well documented instructions and learning resources and it also comes up with a set of creative projects.
+\ml{Aici cred ca ar fi mai fain, daca ai folos subsections, si ai pune url-ul in footnote. Ceva de genul asta:}
+\subsection{Instructables}
+
+Instructables\footnote{\url{http://www.instructables.com/classes/}} is a website that provides tutorials for hands-on projects in a range of disciplines. It provides well documented instructions and learning resources and it also comes up with a set of creative projects.
 The downsides of their concept is that their tutorials are so focused on how to build a project, that is does`' not enforce any conceptual understanding. The website does not implement any assessment tools.\\
+
 
 \textbf{Code Combat: \url{https://codecombat.com/}}
 
 Code Combat is one of games that aim teaching kids coding within the mechanics of a real game. Commands controlling the characters in the game are code-like commands, sometimes language specific (Code Combat uses Python commands), other times more generic. 
-This is a successful model for wrapping learning in the realms of entertainment, and it uses gamification as an incentive. Kids understand the power of code commands within the virtual reality, but still lack the vision of connecting coding within a broader spectrum of STEM multidisciplinarity.\\
+This is a successful model for wrapping learning in the realms of entertainment, and it uses gamification as an incentive. Kids understand the power of code commands within the virtual reality, but still lack the vision of connecting coding within a broader spectrum of STEM multidisciplinarity. \\
 
 \textbf{Bitsbox: \url{https://bitsbox.com/}} \\
 \textbf{Scratch MIT: \url{https://scratch.mit.edu/}}
@@ -70,12 +77,12 @@ This is a successful model for wrapping learning in the realms of entertainment,
 Programs like Scratch or Bitsbox empower children on a higher degree, as they become themselves the creators instead of players of games. 
 Scratch is particularly powerful for the community they build around it. Users can upload and share their creations with others, can exchange tips and comments. 
 Scratch MIT lacks outlining the concepts it operates with. Kids understand the power of coding, but the platform does not provide conceptual basis.
-By contrast, Bitsbox connects modules of practice with specific coding concepts, but do not empower the users by engaging them in active participation. \\
+By contrast, Bitsbox connects modules of practice with specific coding concepts, but \chg{do}{does} not empower the users by engaging them in active participation. \\
 
 \textbf{EEME: \url{http://www.eeme.co/tour}} \\
 \textbf{Creation Crate: \url{https://mycreationcrate.com/}}
 
-These websites have a well built system of monthly kits and learning support (tutorials), plus good integration of interdisciplinary STEM projects. Users can subscribe for getting a monthly kit and can preview the projects they gonna make. Especially My Creation Crate has a portofolio of very creative projects.
+These websites have a well built system of monthly kits and learning support (tutorials), plus good integration of interdisciplinary STEM projects. Users can subscribe for getting a monthly kit and can preview the projects they \chg{gonna}{will} make. Especially My Creation Crate has a portofolio of very creative projects.
 What both these platforms lack is engaging the community and assessment tools.\\
 
 \textbf{Thimble: \url{https://www.thimble.io/}}
@@ -84,20 +91,29 @@ Thimble's solution is the closest to our concept, bringing together a number of 
 One feature is the community they build through forums, chat, projects sharing and weekly project webinars. Users are encouraged to customize their projects and share them on the platform. 
 Another differential aspect is that they complement the practice with conceptual learning. They do so by using assessment tools as part of the learning strategy. They explain concepts and insert quizzes through the projects presentation steps.\\
 
+\ml{good analysis of related work.}
+
+
+
+\ml{Cel putzin citatul, daca nu toata sectiunea asta apartzine de chapter-ul urmator asi zie eu. Desi cred ca tot paragraphul}
 
 \section{Preliminary Work and Preparations}
 
-"When you design a product, inside and out, the most important thing is to nail down the user experience. What are the screens, how do they work, what do they do. Later, you worry about how to get from here to there. There's no use arguing about what programming language to use before you've decided what your product is going to do." - Joel Spolsky (co-founder of Trello and Fog Creek Software, and CEO of Stack Overflow) \footnote{http://www.joelonsoftware.com/articles/fog0000000036.html}\\
 
-I was part of a small team responsible for developing the product. It was composed of two developers and the product owner who was also the start-up CEO and the project manager. This resulted in having the developers directly involved in gathering and negociating the requirements.\\
 
-I participated in the project set up from the scratch. This means I needed to narrow down the initial generic, ambigously broad ideas of the product into detailed, manageable requirements. I decided the best technique of doing so was to come up with functional specifications.\\
+{\em "When you design a product, inside and out, the most important thing is to nail down the user experience. What are the screens, how do they work, what do they do. Later, you worry about how to get from here to there. There's no use arguing about what programming language to use before you've decided what your product is going to do."}\\ \\  - Joel Spolsky\footnote{http://www.joelonsoftware.com/articles/fog0000000036.html} (co-founder of Trello and Fog Creek Software, and CEO of Stack Overflow) \\
 
-Inspired by Joel Spolsky view of functional specifications, I followed his model and took each screen, gave it a canonical name, and wrote a chapter describing it in as much detail as possible. The description focused on functionality and interaction design, rather than the exact look and layout. I have used sketch up UI mock-ups only as a tangible common baseline for discussions. Having a visual anchor is an efficient method for understanding the interaction design of the app and possible features implementation.\\
+
+
+I was part of a small team responsible for developing the product. \chg{It}{Our team} was composed of two developers and the product owner who was also the start-up CEO and the project manager. This resulted in having the developers directly involved in gathering and negociating the requirements.\\
+
+I participated in the project set up from the \chg{scratch}{begining}. This means I needed to narrow down the initial generic, ambigously broad ideas of the product into detailed, manageable requirements. I decided the best technique of doing so was to come up with functional specifications.\\
+
+Inspired by Joel Spolsky view of functional specifications, I followed his model and took each screen, gave it a canonical name, and wrote a chapter describing it in as much detail as possible \ml{Mai ai descrierile alea? Ai putea as le pui ca si appendix-uri! :)}. The description focused on functionality and interaction design, rather than the exact look and layout. I have used sketch up UI mock-ups only as a tangible common baseline for discussions. Having a visual anchor is an efficient method for understanding the interaction design of the app and possible features implementation.\\
 
 Having the specs, it became much easier to nail down a set of tasks and to prioritize them into a manageable backlog.\\
 
-I have framed the specs around user scenarios for anticipating the end-users interactions with the platform and a better understanding of their needs. As this quote sais it well: "A human brain understands things much better if you can paint a vivid picture in their mind by telling a story, even if it's just a fragment of a story, because our brains have evolved to understand stories." \footnote{http://www.joelonsoftware.com/articles/fog0000000036.html}
+I have framed the specs around user scenarios for anticipating the end-users interactions with the platform and a better understanding of their needs. As \chg{this quote }{Spolsky} sais it well: "A human brain understands things much better if you can paint a vivid picture in their mind by telling a story, even if it's just a fragment of a story, because our brains have evolved to understand stories."\footnote{http://www.joelonsoftware.com/articles/fog0000000036.html}
 
 
 

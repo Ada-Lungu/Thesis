@@ -3,6 +3,7 @@
 
 \usepackage{hyperref}
 \usepackage{subfig}
+\usepackage{xspace}
 
 \hypersetup{
     colorlinks,
@@ -13,7 +14,10 @@
 }
 
 % Commands that I defined
-\newcommand{\sfun}{SmartFun}
+% \xspace makes sure there is a space between \sfun and the following word
+\newcommand{\sfun}{SmartFun\xspace}
+
+\include{edit-commands}
 
 \begin{document}
 \begin{titlepage}
