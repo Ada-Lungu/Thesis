@@ -9,7 +9,7 @@ We use a server host provider service (Meebox), which comes with a package that 
 I have suggested Github as our Version Control System, and learned Slack as the company's favorite Communication Management Tool. 
 We have created a separate environment for testing and for production and for this purpose we have created a database for each environment. All the local changes are tested on the test database which is on the server.\\
 
-I have chosen as IDE (Integrated Development Environment) PHPStorm, which is Jetbrains product for php development. Our main team tasks management tool was Trello, where we split tasks in categories and constantly prioritized our workflow.
+I have chosen as IDE (Integrated Development Environment) PHPStorm, which is Jetbrains\ins{'} product for php development. Our main team tasks management tool was Trello, where we split tasks in categories and constantly prioritized our workflow.
 
 \section{Front-End}
 
@@ -17,11 +17,11 @@ We have opted for a minimalistic, simple design for our beta version, as a strat
 
 \subsection{Programming Languages} 
 
-On front-end I mostly use JQuery. Apart from substantially compressing the code in fewer lines, JQuery is also the most browser-friendly option. It does not need Adobe Flash plug-in to be interpreted by the browser, meaning it is readable in any browser.
+On front-end I mostly use \ins{HTML5 and Javascript with }JQuery. Apart from substantially compressing the code in fewer lines, JQuery is also the most browser-friendly option. \del{It does not need Adobe Flash plug-in to be interpreted by the browser, meaning it is readable in any browser.}
 \footnote{http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html}
 \\
 
-I use SCSS as a preprocessor programming language, to facilitate better standardization and omogenity of UI components. Jetbrains PHPStorm comes with a File Watcher, a transpiler tool for SCSS that facilitated its integration.\\
+I use SCSS as a preprocessor programming language. \ins{SCSS is a superset of CSS which allows the definition of constants and variables and thus } facilitate better standardization and omogenity of UI components. Jetbrains PHPStorm comes with a File Watcher\chg{, a transpiler}{a} tool that facilitated its integration \ins{by automatically transpiling to CSS every time the SCSS file is modified}.\\
 
 As a working practice I keep the mark-up language separated from Javascript as much as possible. I use small modules of Javascript code, usually having Javascript files corresponding to core UI components.
 I have created a dedicated layout folder, that comprises the layout elements common to all or some of the application pages. 
@@ -29,36 +29,39 @@ I have created a dedicated layout folder, that comprises the layout elements com
 \subsection{UI Frameworks} 
 
 The front-end framework we use is Bootstrap Twitter 3.3.6. We have settled on Boostrap after analysing pros and cons of alternative frameworks.
-Although frameworks like Foundation, Semantic UI, Material Design, Ulkit have some competitive features, Boostrap won by having some unbeatable advantages.\\
+Although frameworks like Foundation, Semantic UI, Material Design, Ulkit have some competitive features, Boostrap won by having some unbeatable advantages: \ml{seems like an ennumeration to me :)}
 
-It corresponds to one of our core design principles: responsiveness. It exceeds other frameworks by its stated attention towards resposiveness and mobile-friendliness.
-Bootstrap is still regarded as the most popular front-end framework, with large community support and consequenlty with rich documentation and resources: articles and tutorials, third-party plug-ins and extensions, theme builders.\\
+\begin{itemize}
+	\item It corresponds to one of our core design principles: responsiveness. 
+	\item It exceeds other frameworks by its stated attention towards resposiveness and mobile-friendliness.
+	\item Bootstrap is still regarded as the most popular front-end framework, with large community support and consequenlty with rich documentation and resources: articles and tutorials, third-party plug-ins and extensions, theme builders.\\
+
+\end{itemize}
 
 I also prefer Boostrap beacause of its level of specificity. Being more generic than other frameworks that tend to have higher-level specificity, its minimal style framework is easier to customise. I consider it is more practical to add up styling rules than overwriting existing ones. 
 \footnote{https://www.sitepoint.com/5-most-popular-frontend-frameworks-compared/}\\
 
-A good framework needs to level up constantly with the latest web technologies, especially with regards to mobile. Bootsrap does that, being constantly under active development. It also has a generous browser support.\\	
+A good framework needs to level up constantly with the latest web technologies, especially with regards to mobile. Bootsrap does that, being constantly under active development. It also has a \ugh{generous browser support}.\\	\ml{not sure what's that}
 
-Some of the other frameworks have some very competitive features. Semantic UI has some extra unique UI components and outperforms Boostrap as a very friendly, semantic language. Its overall structure of the framework and the naming conventions, in terms of clear logic and semantics of its classes has a clear vantage point. It prounds itself with a scalable and modular architecture for CSS as main property. \footnote{https://www.keycdn.com/blog/front-end-frameworks/}\\
+Some of the other frameworks have some very competitive features. Semantic UI has some extra unique UI components \del{and outperforms Boostrap as a very friendly, semantic language}\ml{vague. how do you know what it outperforms?}. Its overall structure of the framework and the naming conventions, in terms of clear logic and semantics of its classes has a \ugh{clear vantage point}\ml{again... a bit marketingy...}. It \chg{prouds}{prides} itself with a scalable and modular architecture for CSS as main property. \footnote{https://www.keycdn.com/blog/front-end-frameworks/}\\
 
 Frameworks such as Semantic UI and Foundation also outweight others by a unique, rich pallette of UI components.
 YOOtheme distinguishes itself with a better GUI Customizer. It offers a flexible and powerful customization mechanism, either manually or via its GUI customizer. \footnote{http://noeticforce.com/best-material-design-web-frameworks}
-Regarding the spectrum of browser support, Boostrap finds itself a step behind Foundation.\\
+\del{Regarding the spectrum of browser support, Boostrap finds itself a step behind Foundation}.\ml{hmm. and this means what? }\\
 
 
 \section{Back-End}
 
-\subsection{Programming languages} 
+\subsection{Programming language} 
 
 I have built the application using the scripting language PHP as server-side choice. I believe it is a reliable choice, as PHP has steadily been one of the most widely used developing language for web applications. It is commonly known for its portability and it is supported by the highest number of web server hosting providers. 
 PHP is widely backed by large programming communities and it is open source, which assures a steady development and a solid community commitment in stabilizing it.\\ 
 
-PHP is also known for its resilience. It it portable on all major operating systems and has support on a wide range of web servers. PHP holds up both procedural and object-oriented (OOP) programming paradigms, and has compatibility with a vast collection of databases.\\ 
+PHP is also \del{known for its resilience. It it} portable on all major operating systems and has support on a wide range of web servers. PHP holds up both procedural and object-oriented (OOP) programming paradigms, and has compatibility with a vast collection of databases.\\ 
 
 For relational database management system (RDMS) I have opted for MySql. PHP can use mainstream MySQLLi and also provides an abstraction layer through PDO, which I have made use of.
 
-\subsection{RDMS} 
-
+\ml{Moved these following paragraphs from the next section to here... because they are about the PHP side of interacting with MySQL}
 PDO stands for PHP Data Objects. It provides a data-access abstraction layer, using a unified API, which is a lean, consistent way to access databases regardless of the database. This increases the portability of our code, if we want to change the database we operate with.\\
 
 One core advantage of PDO over MySQLi lyes in its database driver support. PDO upholds around 12 different drivers, opposed to MySQLi, which supports MySQL only. This fact has implications for further software changes, as using PDO makes it facile to transfer to a different database. \footnote{https://code.tutsplus.com/tutorials/pdo-vs-mysqli-which-should-you-use--net-24059}\\  
@@ -68,9 +71,14 @@ The performance is boosted by the use of Prepared Statements, which allows the p
 
 The second advantage of employing PDO is the layer of security it provides. It is designed to shield against one of the most invasive forms of security breaches: SQL injections. The parameters sent in the query are transmitted later than the query commands using a different protocol. They are scrunitized with security filters through these protocols. \footnote{http://stackoverflow.com/questions/8263371/how-can-prepared-statements-protect-from-sql-injection-attacks}\\ 
 
+
+\subsection{RDMS} 
+
+\ml{Nu sunt sigur daca aceasta sectiune se potriveste  aici. E specifica domain model-ului tau. Tot ce am vorbit pana acum este general design choices... Hai ca mai citesc, poate descopar un loc unde sa se potriveasca mai bine.! cred ca ar merge mai bine la application architecture...}
+
 In the design of our database, we have used all types of relational raports between tables. One-to-one relationship model is predominent, followed by one-to-many pattern. 
 The many-to-many relationship is used in merging data between tables such Members-Projects, Projects-Steps, Members-Achievements, Members-Activities, Members-Quizzes, Members-Comments.
-I describe the database design using the following Entity Relation Diagram. I have used a coloristic relation map to differentiate the types of dependency between tables and data.
+I describe the database design using the following Entity Relation Diagram. I have used a \ugh{coloristic} relation map to differentiate the types of dependency between tables and data.
 [Figure ~\ref{fig:entity_relation}]\\
 
 
@@ -83,7 +91,7 @@ I describe the database design using the following Entity Relation Diagram. I ha
 
 \section{Application Architecture and Design Principles}
 
-I will exemplify the application architecture and the design principles used by presenting the interactions of one of the projects main modules: the Projects section. The following diagram shows the organization and dependencies between the files of the module. [Figure 3.2]
+I will exemplify the application architecture and the design principles used by presenting the interactions of one of the projects main modules: the Projects section. \chg{The following diagram}{Figure \ref{fig:file_dependencies_projects}} shows the organization and dependencies between the files of the module. \ins{Solid lines represent... Dashed lines represent...}
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/ProjectsDependencies.png}
@@ -93,13 +101,16 @@ I will exemplify the application architecture and the design principles used by 
 
 \subsection{Design Principles}
 
+\ml{Am definit un nou command pentru code si unul pentru file names... Te las pe tine sa vanezi toate oportunitatzile de a le folosi :) }
+
+
 I have designed my code around few pillarstone principles: separation of concerns, DRY (Do Not Repeat Yourself) and modularity (reusable components). Separation of concern principle is commonly associated with the MVC architecture design pattern. Although I do not employ a standard MVC framework, I have structured the composition of the code by applying MVC patterns, by striving to preserve a neat separation between the business logic and the interface. \footnote{http://www.fiftyfoureleven.com/weblog/web-development/programming-and-scripts/php-mvc-without-oop}\\ 
 
-On Client-side I have separated the plain presentation from functionality, by keeping the mark-up language from javascript in separate files. For readability purposes, I structured the front-end code in smaller separate files, so that major UI component are represented by distinct file.\\ 
+On Client-side I have separated the plain presentation from functionality, by keeping the mark-up language \chg{from}{and} Javascript in separate files. For readability purposes, I structured the front-end code in smaller separate files, so that major UI components are represented by distinct files.\\ 
 
-Because I make frequent use of Ajax calls, I have decided to dedicate a separate file where I have modelled an ajax API, that defines all ajax calls functions used throughout Projects (ajaxProjectsAPI.js). Doing so, I gain readibility of the code, by having a javascript file that only deals with the actual ajax calls, and the other javascript file only displaying the data in the view. The next advantage it promotes is modularity. Having a universal ajax API for the Projects module, I centralize all the ajax calls under reusable functions, that are accessible from any file of the module and even to other modules. This way, I can use same ajax function when needed and forestall redundancy of code. \\ 
+Because I make frequent use of Ajax calls, I have decided to dedicate a separate file where I have modelled an ajax API, that defines all ajax calls functions used throughout Projects (\file{ajaxProjectsAPI.js}). Doing so, I gain readibility of the code, by having a \chg{javascript}{Javascript} \ml{make sure it's uppercase everywhere} file that only deals with the actual ajax calls, and the other javascript file only displaying the data in the view. The next advantage \ins{is that} it promotes is modularity. Having a universal \chg{ajax}{Ajax}\ml{make sure it's uppercase everywhere!} API for the Projects module, I centralize all the ajax calls under reusable functions, that are accessible from any file of the module and even to other modules. This way, I can use \ins{the }same ajax function when needed and forestall redundancy of code. \\ 
 
-I'll describe the design of the AJAX API. It has 2 central generalized Ajax calls functions: postAjaxCall and postAjaxCallSendDictParams. postAjaxCall function sends as data only one parameter, while the other takes a dictionary for sending a couple of arguments to the server.
+I'll describe the design of the \ugh{AJAX}\ml{choose one spelling. maybe introduce a new command?} API. It has 2 central generalized Ajax calls functions: \code{postAjaxCall} and \code{postAjaxCallSendDictParams}. The \code{postAjaxCall} function sends as data only one parameter, while the other takes a dictionary for sending a couple of arguments to the server.
 Both functions take the following arguments: the server-side endpoint they are sending data to, the data to be sent (name of the action and parameters), and a function that will be executed (in javascript) if the ajax call has been successful. [See Figure ~\ref{fig:general_ajax_calls}]\\ 
 
 \begin{figure}
@@ -122,7 +133,7 @@ ship.}. Consequently, these functions are suggestively named by the type of acti
 The Ajax API is for my application what the Controller is for the MVC pattern. It acts as an intermediary between the server-side(business logic) and the client-side(view). Basically, it solicits data from the server, takes the result data and transfers it to the view, without processing it in any way. \footnote{http://www.htmlgoodies.com/beyond/php/article.php/3912211}	\\  
 
 Having the Ajax calls isolated, the other javascript files are left to perform the display of data. I encapsulate the display mechanism in functions. 
-I have created distinctive functions for each display demand of data in the interface. By doing so, display functions can be reused by other functions and the readibility of the code is increased. Moreover, it increases modularity and it facilitates easy future changes or integration of new components in the UI.
+I have created distinctive functions for each display demand of data in the interface. By doing so, display functions can be reused by other functions and the \chg{readibility}{readabiliey} of the code is increased. Moreover, it increases modularity and it facilitates easy future changes or integration of new components in the UI.
 Commonly, a javascript function in the system will call one or more ajax functions and will pass it as argument a display function, like in the next snippet example [Figure ~\ref{fig:javascript_function}].\\ 
 
 \begin{figure}
@@ -131,17 +142,23 @@ Commonly, a javascript function in the system will call one or more ajax functio
 \label{fig:javascript_function}
 \end{figure}
 
-On Server-side, I have organised the API in 2 main files: projects\_functions.php and projects\_server.php. In projects\_server.php are all functions and the database requests/queries called through the Ajax API that are sent to the Data Server, while in projects\_functions all the other functions, associated with the Web Server requests.
+
+On the server-side I have organised the API in two main files: \ml{am creat un itemize aci...}
+\begin{itemize}
+	\item \file{projects\_functions.php} contains all functions and the database requests/queries called through the Ajax API that are sent to the Data Server
+	\item \file{projects\_server.php} contains all the other functions, associated with the Web Server requests.
+\end{itemize}
+ 
 Besides the two endpoints, I separate the back-end functions for self-contained actions in independent files, like uploading media resources in upload.php, adding the steps for the project in addSteps.php and uploading steps in upload\_steps.php.\\
 
-Another clean code principle I have developed while designing the application is trying to perform as much processing of data as possible on the back-end and in queries, obtaining as clear-cut data as needed in front-end (with less functionalities in javascript). 
+Another clean code principle I have developed while designing the application is trying to perform as much processing of data as possible on the back-end and in queries, obtaining as clear-cut data as needed in front-end (with less \chg{functionalities}{processing} in javascript). \ml{nice :)}
 
 
 \subsection{Client-Server Architecture}
 
 The Front-end API is represented by the functions responsible with the data display which are organised in the js files, and the ajax functions. \\
 
-I make a formal distinction between functions which are both called and executed on server-side and those which are actually called on client side in javascript, by having them in 2 distinct end-points. The ones on the client are passing through the AjaxProjectsAPI and are executed in projects\_server.php.The functions that are both called and executed on server are defined in projects\_functions.php. \\
+I make a formal distinction between functions which are both called \chg{and executed on }{from Php from the }server-side and those which are actually called \chg{on}{from the Javascript} client side \chg{in javascript}{via Ajax}, by having them in 2 distinct end-points. The ones \chg{on}{called from } the client are passing through the AjaxProjectsAPI and are executed in projects\_server.php.The functions that are both called and executed on server are defined in projects\_functions.php. \\
 
 In the following subsections I will present the client-server architecture of the application by analysing the interactions derived from each page of the projects module. 
 
@@ -152,7 +169,7 @@ This page displays all existent projects and a collection of labels that users c
 
 The data of the category tags is retrieved through the getAllProjectsLabels() of the projects\_functions.php endpoint, which is displayed directly in the index.php.\\
 
-For the category filter tags system, I use Ajax in retrieving and displaying the projects that result in labels selection. I have prefered to dynamically update the page with the selected projects rather than refresh the page, as it was more facile to hide the unselected projects in javascript than updating the page with the previously selected labels. This way, after the filter event is triggered, only the projects section is dynamically changed, the selected labels remaining unchanged. All these interactions are described in Figure ~\ref{fig:architecture_all_projects}\\
+For the category filter tags system, I use Ajax in retrieving and displaying the projects that result in labels selection. I have prefered to dynamically update the page with the selected projects rather than refresh the page, as it was more facile to hide the unselected projects in javascript than updating the page with the previously selected labels. This way, after the filter event is triggered, only the projects section is dynamically changed, the selected labels remaining unchanged. All these interactions are described in Figure ~\ref{fig:architecture_all_projects}\\ \ml{the rounded rectangle around figure 3.6 is not very informative. could be dropped i guess.}
 
 The page also gives the user the possibility of adding a new project. The \textit{Add New Project} button will redirect the user to the following url:
 \url{projects/edit\_project.php?projectId}. In the background, the click event actually links to \url{projects/create\_project.php}, from where the user is redirected to the edit page. I will explain the logic of this process in the \textit{Create New Project Page} description.
@@ -167,7 +184,7 @@ The page also gives the user the possibility of adding a new project. The \texti
 \url{projects/create\_project.php}
 
 create\_project.php has only a mediating and rerouting function between index.php and edit\_project.php. Before saving the edited information of a newly created project, we first need an entry of the new project in the db. 
-In create\_project.php, we insert a new project in the database with no other data than its id. Then we extract the id, sending it as an argument and redirecting to \url{edit\_project.php?projectID}. See Figure ~\ref{fig:create_project}
+In create\_project.php, we insert a new project in the database with no other data than its id. Then we extract the id, sending it as an argument and redirecting to \url{edit\_project.php?projectID}. See Figure ~\ref{fig:create_project} \ml{nice!}
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{images/CreateProjectPage.png}
@@ -244,12 +261,14 @@ As a long-term development vision, the platform could offer a learning experienc
 
 \chapter{Conclusion}
 
-Building the current project has been a complex learning experience in my evolution as a developer and beyond. 
+Building the current project has been a complex learning experience in my evolution as a \ins{full-stack }developer and \chg{beyond}{user experience designer}. 
 One of the greatest assets of my role in this project was being involved in all stages of product development: gathering requirements, prototyping, writing specifications, DB and UI design, UX testing, implementation. Working in a start-up meant direct and constant communication with the product owner and a tight dialogue with the whole team. \\
 
 It was challenging to be a full stack developer, as I had constantly switched from crafting back-end functionalities to polishing the UI. I consider as an achievement the fact that the implementation of the current version was done entirely by me and one more developer. The greatest achievement though is the fact that I have seen the application in use by kids in workshops. \\
 
 It has been reassuring to see how the platform has improved the learning experience during the workshops. It brought more structure and it increased time efficiency. Following the projects tutorials on the platform, made kids more focused and independent. Having the platform enabled them to work in their own pace, without tutors having to explain same instructions all over again. Further development of the platform will bring the workshop experience to kids at home, so more kids will have the chance of experiencing learning with STEM projects in their own age specific language: play.\\
+
+\ml{Aici ai putea sa adaugi observatziile legate de behaviorul copiilor pe care le-am observat mai devreme: ca sunt motivatzi de puncte, ca trebuie sa fii atent si in mod constant sa te adaptezi (e.g. sa le dezactivezi chat-ul in timpul workshop-urilor :)}
 
 
 \begin{thebibliography}{9}
@@ -266,9 +285,10 @@ Robert C. Martin.
 Joel Spolsky. Joel on Software - Painless Functional Specifications
 \\\texttt{http://www.joelonsoftware.com/articles/}.
 
+\ml{Online Article suna mai bine decat Google! Si footnotesize ajuta cu fontul pentru link}
 \bibitem{} 
-Google. Why choose JQuery.
-\\\texttt{http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html}.
+Online Article. Why choose JQuery.
+\\{\footnotesize \texttt{http://www.javaworld.com/article/2078613/java-web-development/6-reasons-you-should-be-using-jquery.html}.}
 
 \bibitem{} 
 Google. Most Popular Frontend Frameworks.
